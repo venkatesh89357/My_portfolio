@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>John Doe | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+  <style>
+    body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4); /* darker overlay */
+  z-index: -1;
+}
+    * {
+      margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background-image: url('https://www.vecteezy.com/video/8800863-circuit-data-neural-network-ai-technology-cloud-computing-bits-internet-5g-blue-background-information-ai-talking-circuit-women.gif');
+      color: #333;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    
+    header {
+      background: #1e1f26;
+      color: #fff;
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.8;
+    }
+    nav {
+      background: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: center;
+      padding: 1rem 0;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #1e1f26;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: #007bff;
+    }
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    .section-title {
+      font-size: 2rem;
+      color: #007bff;
+      margin-bottom: 1rem;
+    }
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin: 1rem 0;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .project-img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+    .button {
+      display: inline-block;
+      background: #007bff;
+      color: #fff;
+      padding: 0.6rem 1rem;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 0.5rem;
+    }
+    .button:hover {
+      background: #0056b3;
+    }
+    footer {
+      background: #1e1f26;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 3rem;
+    }
+    .header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.header-left {
+  flex: 1;
+  text-align: left;
+  height : 100px;
+  width: 100%;
+}
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  filter: brightness(0.6); /* optional for readability */
+}
+
+.header-right {
+  flex: 1;
+  text-align: right;
+}
+
+.profile-img {
+  max-width: 150px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+  </style>
+</head>
+<body>
+  <video autoplay muted loop id="bg-video">
+  <source src="background.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+  <header>
+  <div class="header-container">
+    <div class="header-left">
+      <h1>Gorla Venkatesh</h1>
+      <p>Machine Learning Engineer | Full-stack Developer | Tech Enthusiast</p>
+    </div>
+    <div class="header-right">
+      <img src="C:\Users\crb89\Desktop\My_Portfolio\Calm Portrait in Soft Light.png" alt="Profile Picture" class="profile-img">
+    </div>
+  </div>
+</header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="card">
+      <p>Hello! I'm Venkatesh Gorla, a passionate web developer with a knack for creating clean and responsive user interfaces. I love working on exciting projects and learning new technologies.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+  <h2 class="section-title">Skills</h2>
+  <div class="card">
+    <i class="devicon-html5-plain colored"></i><p style="color:black;">HTML</p>
+    <i class="devicon-css3-plain colored"></i>
+    <i class="devicon-javascript-plain colored"></i>
+    <i class="devicon-react-original colored"></i>
+    <i class="devicon-git-plain colored"></i>
+    <i class="devicon-bootstrap-plain colored"></i>
+  </div>
+</section>
+
+
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="card">
+      <img src="https://via.placeholder.com/800x200.png?text=Portfolio+Screenshot" alt="Portfolio Screenshot" class="project-img">
+      <h3>Portfolio Website</h3>
+      <p>A personal website to showcase my projects and resume.</p>
+      <a href="#" class="button">View Project</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/800x200.png?text=ToDo+App" alt="ToDo App" class="project-img">
+      <h3>ToDo App</h3>
+      <p>A simple task management app built with React.</p>
+      <a href="#" class="button">View Code</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <div class="card">
+      <p>Email: venkateshgorla417@gmail.com</p>
+      <p>GitHub: https://github.com/venkatesh89357</p>
+      <p>LinkedIn: www.linkedin.com/in/venkatesh-gorla-182616279</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gorla Venkatesh. All rights reserved.</p>
+  </footer>
+</body>
+</html>
